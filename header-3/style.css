@@ -50,7 +50,7 @@
 } */
 
 main {
-  background-color: var(--light-blue);
+  background-color: var(--pastel-purple);
   width: 100%;
   height: 200vh;
 }
@@ -155,6 +155,29 @@ background: linear-gradient(107deg,
 .drop-submenu.open>.drop-second-menu,
 .drop-submenu.open>.drop-third-menu {
   display: block;
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  background-color: '#F1F1F1';
+  background-color: var(--whiteColor);
+  border-radius: 0px;
+  width: 100%;
+}
+
+.backgroundColorHeader {
+  background-color: var(--blackColor);
+}
+
+.itemColor {
+  color: var(--whiteColor) !important;
+  font-weight: 500;
+}
+
+.blackRadiusBackground {
+  background-color: var(--blackColor) !important;
+  border-radius: 100px;
 }
 
 /* ریسپانسیو */
