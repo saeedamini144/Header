@@ -51,7 +51,6 @@
 
 main {
   background-color: var(--pastel-purple);
-  width: 100%;
   height: 200vh;
 }
 
@@ -107,6 +106,7 @@ background: linear-gradient(107deg,
 
 .navmenu ul {
   padding-right: 0;
+  margin-bottom: 0 !important;
 }
 
 .dropdown ul li a {
@@ -159,25 +159,24 @@ background: linear-gradient(107deg,
 
 .fixed {
   position: sticky;
-  top: 0;
+  top: 20px;
+  left: 82px;
+  right: 82px;
   background-color: '#F1F1F1';
   background-color: var(--whiteColor);
   border-radius: 0px;
   width: 100%;
+  transition: all 0.3s ease-in-out;
 }
 
 .backgroundColorHeader {
   background-color: var(--blackColor);
+  border-radius: 100px;
 }
 
 .itemColor {
   color: var(--whiteColor) !important;
   font-weight: 500;
-}
-
-.blackRadiusBackground {
-  background-color: var(--blackColor) !important;
-  border-radius: 100px;
 }
 
 /* ریسپانسیو */
@@ -198,6 +197,7 @@ background: linear-gradient(107deg,
     padding: 20px 0;
     border-radius: 100px;
     vertical-align: middle;
+    transition: all 0.3s ease-in-out;
   }
 
   /* header {
@@ -212,16 +212,19 @@ background: linear-gradient(107deg,
     /* مخفی کردن دکمه برگر در دسکتاپ */
   }
 
+  header {
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(10px);
+  }
+
   .second-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(255 255 255 / 30%);
-    backdrop-filter: blur(10px);
     padding: 20px 20px;
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 82px;
+    right: 82px;
     vertical-align: middle;
     z-index: 1000;
   }

@@ -10,9 +10,8 @@ window.addEventListener('scroll', function () {
         let offcanvasMenu = document.querySelectorAll('.menu-item');
         if (window.scrollY > 1) {
             boxMenu.classList.add('fixed');
-            mainMenu.classList.add('fixed');
+            // mainMenu.classList.add('fixed');
             mainMenu.classList.add('backgroundColorHeader');
-            mainMenu.classList.add('blackRadiusBackground');
             itemsMenu.forEach(item => item.classList.add('itemColor'));
             blackLogo.style.display = 'none';
             whiteLogo.style.display = 'block';
@@ -20,9 +19,8 @@ window.addEventListener('scroll', function () {
 
         } else {
             boxMenu.classList.remove('fixed');
+            // mainMenu.classList.remove('fixed');
             mainMenu.classList.remove('backgroundColorHeader');
-            mainMenu.classList.remove('fixed');
-            mainMenu.classList.remove('blackRadiusBackground');
             itemsMenu.forEach(item => item.classList.remove('itemColor'));
             whiteLogo.style.display = '';
             blackLogo.style.display = '';
