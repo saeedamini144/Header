@@ -258,14 +258,16 @@ background: linear-gradient(107deg,
 
     .menu-link:after,
     .drop-item:after {
-        content: "";
-        display: none;
+        content: " ";
+        /* display: none; */
     }
 
     .main-menu {
         z-index: 1000;
         margin: 0 82px;
     }
+
+
 }
 
 /* menu style end */
