@@ -169,10 +169,10 @@ background: linear-gradient(107deg,
   transition: all 0.3s ease-in-out;
 }
 
-/* .backgroundColorHeader {
+.backgroundColorHeader {
   background-color: var(--blackColor);
   border-radius: 100px;
-} */
+}
 
 .itemColor {
   color: var(--whiteColor) !important;
