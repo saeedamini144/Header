@@ -146,34 +146,40 @@ background: linear-gradient(107deg,
 .drop-submenu.open>.drop-third-menu {
     display: block;
 }
-.drop-menu li{
+
+.drop-menu li {
     height: 34%;
     width: 100%;
-   }
-   .drop-second-menu li{
+}
+
+.drop-second-menu li {
     height: 34%;
     width: 100%;
-   }
-   .drop-third-menu li{
+}
+
+.drop-third-menu li {
     height: 34%;
     width: 100%;
-   }
+}
 
 /* ریسپانسیو */
-@media only screen and (max-width: 423px){
-    .drop-menu li{
+@media only screen and (max-width: 423px) {
+    .drop-menu li {
         height: 34%;
         width: 98%;
-       }
-       .drop-second-menu li{
+    }
+
+    .drop-second-menu li {
         height: 34%;
         width: 98%;
-       }
-       .drop-third-menu li{
+    }
+
+    .drop-third-menu li {
         height: 34%;
         width: 98%;
-       }
+    }
 }
+
 @media (max-width: 768px) {
     .burger-menu {
         display: block;
@@ -192,37 +198,46 @@ background: linear-gradient(107deg,
         border-radius: 100px;
         vertical-align: middle;
     }
-    .drop-menu, .drop-second-menu, .drop-third-menu {
+
+    .drop-menu,
+    .drop-second-menu,
+    .drop-third-menu {
         display: none;
         list-style: none;
         padding-left: 0rem;
     }
+
     .drop-menu li {
         background-color: aliceblue;
         /* margin: 0.1rem; */
         padding: 0.3rem;
         border-bottom: 1px solid #fbfbfb;
     }
-    .drop-second-menu li{
+
+    .drop-second-menu li {
         background-color: #eff3ff;
         margin: 0.1rem;
         padding: 0.2rem;
         width: 63vw;
     }
-    .drop-third-menu li{
+
+    .drop-third-menu li {
         background-color: #fff;
         margin: 0.1rem;
         padding: 0.2rem;
         width: 61vw;
         color: black;
     }
+
     .drop-menu li .drop-item {
         text-decoration: none;
         color: #858585;
-    } 
-    ul li.menu-item{
+    }
+
+    ul li.menu-item {
         width: 66vw;
     }
+
     /* header {
   background: linear-gradient(107deg, rgba(223, 213, 255, 1) 11%, rgba(255, 255, 255, 1) 40%);
 } */
@@ -288,15 +303,16 @@ background: linear-gradient(107deg,
         align-content: center;
         text-align: center;
         height: 130px;
-       }
+    }
+
     .drop-second-menu,
     .drop-third-menu {
         right: 100%;
         /* نمایش زیرمنوهای چندسطحی به سمت چپ */
         top: 5rem;
     }
-  
-    .drop-menu li{
+
+    .drop-menu li {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -308,10 +324,12 @@ background: linear-gradient(107deg,
     .drop-submenu:hover>.drop-third-menu {
         display: block;
     }
+
     .dropdown>.menu-link:after,
-.drop-submenu>.drop-item:after {
-    font-size: 0.7rem;
-}
+    .drop-submenu>.drop-item:after {
+        font-size: 0.7rem;
+    }
+
     .drop-item {
         padding: 0.5rem 2.8rem;
         color: #333;
@@ -324,21 +342,18 @@ background: linear-gradient(107deg,
         flex-direction: row !important;
         /* راست‌چین کردن متن زیرمنوها */
     }
+
     .drop-item:hover {
         color: var(--whiteColor);
         background-color: var(--blackColor);
         width: 100%;
         display: flex !important;
-         flex-direction: row !important;
+        flex-direction: row !important;
     }
 
     .menu-link:after,
     .drop-item:after {
-<<<<<<< HEAD
-        content: " ";
-=======
         content: "";
->>>>>>> 0c8f4dc176568f74c6934049d7994ab7f94aef8b
         /* display: none; */
     }
 
@@ -424,7 +439,9 @@ background: linear-gradient(107deg,
     height: auto;
     cursor: pointer;
 }
-@media only screen and (min-width: 1024px){
+
+@media only screen and (min-width: 1024px) {
+
     .dropdown>.menu-link:after,
     .drop-submenu>.drop-item:after {
         content: "▼";
@@ -439,7 +456,7 @@ background: linear-gradient(107deg,
         margin-top: 5px;
 
     }
-    
+
     .dropdown.open>.menu-link:after,
     .drop-submenu.open>.drop-item:after {
         transform: rotate(180deg);
