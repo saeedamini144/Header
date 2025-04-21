@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="صفحه اصلی وب سایت" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="author" content="نام نویسنده" />
+        <meta name="robots" content="index, follow" />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="عنوان اپلیکیشن" />     
+        <meta name="application-name" content="نام اپلیکیشن" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="path/to/tile-image.png" />
+        <meta name="msapplication-config" content="path/to/browserconfig.xml" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-touch-icon" href="path/to/apple-touch-icon.png" />
+        <meta name="apple-touch-icon" sizes="180x180" href="path/to/apple-touch-icon-180x180.png" />
+        <meta name="apple-touch-icon" sizes="167x167" href="path/to/apple-touch-icon-167x167.png" />
+        <meta name="apple-touch-icon" sizes="152x152" href="path/to/apple-touch-icon-152x152.png" /> -->
+        <link rel="stylesheet" href="asstes/css/bootstrap.min.css" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <link rel="stylesheet" href="asstes/css/style.css" />
+    </head>
+
+    <!-- header start -->
+    <header>
+        <!-- top bar start -->
+        <div class="top-bar-header">
+            <p>شرکت تبلیغاتی و آژانس دیجیتال مارکتینگ</p>
+        </div>
+        <!-- top bar end -->
+        <div class="container-fluid side-space main-header">
+            <!-- logo start -->
+            <div class="logo">
+                <a href="#">
+                    <img src="asstes/pic/Logos.png" alt="Logo" aria-label="Logo" class="logo-image" />
+                </a>
+            </div>
+            <!-- logo end -->
+            <!-- menu start -->
+            <!-- دکمه همبرگر -->
+            <div class="mobile-menu-toggle">
+                <i class="bi bi-list"></i>
+            </div>
+            <!-- دکمه همبرگر -->
+            <nav class="main-menu">
+                <ul class="menu-list">
+                    <li class="menu-item-has-children active">
+                        <i class="bi bi-plus dropdown-icon"></i><a href="# " class="drop-down">خدمات</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">تبلیغات دیجیتال</a></li>
+                            <li><a href="#">تولید محتوا</a></li>
+                            <li><a href="#">طراحی سایت</a></li>
+                            <li>
+                                <a href="#">دیجیتال مارکتینگ</a>
+                            </li>
+                            <li><a href="#">مدیریت شبکه‌ های اجتماعی</a></li>
+                            <li><a href="#">کمپین دیجیتال</a></li>
+                            <li><a href="#">گوریلا مارکتینگ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">تماس با ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li class="menu-item-has-children">
+                        <i class="bi bi-plus dropdown-icon"></i><a href="#" class="drop-down">سایر مطالب</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">برترین ها</a></li>
+                            <li>
+                                <i class="bi bi-plus dropdown-icon"></i>
+
+                                <a href="#">برترین مطالب</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">مشتریان ما</a></li>
+                                    <li><a href="#">نظرات</a></li>
+                                    <li><a href="#">سایر خدمات</a></li>
+                                    <li><a href="#">مصاحبه ها</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <i class="bi bi-plus dropdown-icon"></i>
+
+                                <a href="#">پادکست</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">ساید باردوم</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">سایدبار دوم</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">سایدبار دوم</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">سایدبار دوم</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">سایدبار دوم</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">ویرایش حساب کاربری</a></li>
+                            <li><a href="#">مقالات</a></li>
+                            <li><a href="#">طراحی سایت حرفه ایی</a></li>
+                            <li><a href="#">سوالات متداول</a></li>
+                            <li><a href="#">قوانین و مقررات </a></li>
+                            <li><a href="#">همراهان ما</a></li>
+                            <li><a href="#">404</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">تماس با مجموعه</a></li>
+                </ul>
+            </nav>
+            <!-- menu end -->
+            <!-- mail contact start -->
+            <div class="mail-contact d-none d-lg-block">
+                <a href="Mailto:">
+                    <li class="bi bi-envelope"> <span class="pe-2">lavan@gmail.com</span></li>
+                </a>
+            </div>
+            <!-- mail contact end  -->
+            <!-- off canvas start -->
+            <div class="d-none d-lg-block" data-bs-toggle="offcanvas" href="#offcanvasdata" aria-controls="offcanvas">
+                <a href="#">
+                    <div class="contact-offcanvas">
+                        <img src="asstes/pic/Menu Icon.svg" aria-label="contact-offcanvas" alt="contact-offcanvas" />
+                    </div>
+                </a>
+            </div>
+
+            <!-- off canvas end -->
+        </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasdata" aria-labelledby="offcanvasLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
+                    images, lists,
+                    etc.
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <body>
+        <script src="asstes/js/jquery-3.7.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="asstes/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+
+        <script src="asstes/js/javascripts.js"></script>
+
+    </body>
+
+</html>
