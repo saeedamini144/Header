@@ -157,6 +157,7 @@ background: linear-gradient(107deg,
   display: block;
 }
 
+/* js add these classes to the menu items */
 .fixed {
   position: sticky;
   top: 20px;
@@ -178,6 +179,8 @@ background: linear-gradient(107deg,
   color: var(--whiteColor) !important;
   font-weight: 500;
 }
+
+/* js add these classes to the menu items */
 
 /* ریسپانسیو */
 @media (max-width: 768px) {
