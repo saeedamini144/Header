@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
 document.querySelector(".mobile-menu-toggle").addEventListener("click", function () {
     document.querySelector(".main-menu").classList.toggle("show-menu");
 });
+
